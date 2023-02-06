@@ -1,7 +1,7 @@
 /**
  * 设置缓存值
  */
-function setStorageSync(key: string, data: any) {
+export function setStorage(key: string, data: any) {
   if (!key) {
     return new Error('请传入缓存键')
   }
@@ -16,7 +16,7 @@ function setStorageSync(key: string, data: any) {
 /**
  * 获取缓存数据
  */
-function getStorageSync(key: string) {
+export function getStorage(key: string) {
   if (!key) {
     return new Error('请传入缓存键')
   }
@@ -39,7 +39,7 @@ function getStorageSync(key: string) {
  * @param key
  * @returns
  */
-function removeStorageSync(key: string) {
+export function removeStorage(key: string) {
   if (!key) {
     return new Error('请传入缓存键')
   }

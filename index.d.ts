@@ -1,7 +1,7 @@
 /**
  * 设置缓存
  */
-export declare function setStorageSync(
+export declare function setStorage(
   /**
    * 缓存值的key
    */
@@ -14,7 +14,7 @@ export declare function setStorageSync(
 /**
  * 获取缓存
  */
-export declare function getStorageSync(
+export declare function getStorage(
   /**
    * 缓存值的key
    */
@@ -23,7 +23,7 @@ export declare function getStorageSync(
 /**
  * 删除缓存
  */
-export declare function removeStorageSync(
+export declare function removeStorage(
   /**
    * 缓存值的key
    */
