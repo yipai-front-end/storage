@@ -20,8 +20,8 @@ npm i @vkcyan/storage
 import { setStorage, getStorage, removeStorage } from '@vkcyan/show-toast'
 
 let info = {
-  name:'张三',
-  age:20
+  name: '张三',
+  age: 20
 }
 
 setStorage('data', info)
