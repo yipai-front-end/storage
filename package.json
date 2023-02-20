@@ -1,17 +1,17 @@
 {
-  "name": "@vkcyan/storage",
-  "version": "0.0.5",
+  "name": "@yipai-front-end/storage",
+  "version": "0.0.2",
   "main": "./dist/index.js",
   "types": "./index.d.ts",
   "scripts": {
     "build": "tsc"
   },
-  "author": "wu.vkcyan@gmail.com",
+  "author": "wukai@e2pai.net",
   "description": "Web side Toast",
   "bugs": {
-    "url": "https://github.com/vkcyan/showToast/issues"
+    "url": "https://github.com/yipai-front-end/showToast/issues"
   },
-  "homepage": "https://github.com/vkcyan/showToast#readme",
+  "homepage": "https://github.com/yipai-front-end/showToast#readme",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.11.15"
