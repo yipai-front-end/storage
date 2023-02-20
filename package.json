@@ -1,6 +1,6 @@
 {
   "name": "@yipai-front-end/storage",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./dist/index.js",
   "types": "./index.d.ts",
   "scripts": {
