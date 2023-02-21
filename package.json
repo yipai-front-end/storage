@@ -1,19 +1,34 @@
 {
   "name": "@yipai-front-end/storage",
-  "version": "0.0.4",
-  "main": "./dist/index.js",
-  "types": "./index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
+  "private": false,
+  "version": "0.0.5",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
   "author": "wukai@e2pai.net",
   "description": "Web side Toast",
   "bugs": {
-    "url": "https://github.com/yipai-front-end/showToast/issues"
+    "url": "https://github.com/yipai-front-end/storage/issues"
   },
-  "homepage": "https://github.com/yipai-front-end/showToast#readme",
-  "license": "ISC",
+  "homepage": "https://github.com/yipai-front-end/storage#readme",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
   "devDependencies": {
-    "@types/node": "^18.11.15"
+    "@types/node": "^18.14.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4",
+    "vite-plugin-dts": "^2.0.0-beta.3"
   }
 }

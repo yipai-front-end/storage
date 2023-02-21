@@ -11,6 +11,7 @@ export function setStorage(key: string, value: any) {
   const type = typeof value
   const data = JSON.stringify({ type, value })
   localStorage.setItem(key, data)
+  return true
 }
 
 /**
@@ -40,4 +41,5 @@ export function removeStorage(key: string) {
     return new Error('请传入缓存键')
   }
   localStorage.removeItem(key)
+  return true
 }
