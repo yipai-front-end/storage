@@ -5,7 +5,7 @@
   "type": "module",
   "files": [
     "dist",
-    "index.d.ts"
+    "source"
   ],
   "author": "wukai@e2pai.net",
   "description": "Web side Toast",
