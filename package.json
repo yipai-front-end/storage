@@ -8,14 +8,15 @@
     "source"
   ],
   "author": "wukai@e2pai.net",
-  "description": "Web side Toast",
+  "description": "Web side Storage",
+  "license": "ISC",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "bugs": {
     "url": "https://github.com/yipai-front-end/storage/issues"
   },
   "homepage": "https://github.com/yipai-front-end/storage#readme",
-  "main": "./dist/index.umd.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     "types": "./dist/index.d.ts",
     "import": "./dist/index.js",
