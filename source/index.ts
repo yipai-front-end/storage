@@ -1,17 +1,16 @@
 /**
  * 设置缓存值
  */
-export function setStorage(key: string, value: any) {
+export function setStorage(key: string, value: any): void {
   if (!key) {
-    return new Error('请传入缓存键')
+    new Error('请传入缓存键')
   }
   if (!value) {
-    return new Error('请传入缓存值')
+    new Error('请传入缓存值')
   }
   const type = typeof value
   const data = JSON.stringify({ type, value })
   localStorage.setItem(key, data)
-  return true
 }
 
 /**
@@ -36,10 +35,9 @@ export function getStorage(key: string) {
  * @param key
  * @returns
  */
-export function removeStorage(key: string) {
+export function removeStorage(key: string): void {
   if (!key) {
-    return new Error('请传入缓存键')
+    new Error('请传入缓存键')
   }
   localStorage.removeItem(key)
-  return true
 }
